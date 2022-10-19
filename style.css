@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+:root{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    --primary-color:rgb(0, 0, 0);
+    --primary-color-2:#fff;
+    --secundary-color:rgb(94, 94, 94);
+    --font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover,a:focus,a:active{
+  text-decoration: none;
+  color: inherit;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+button{
+  background-color: inherit;
+  color:inherit;
+  border:none;
+}
+/* -------------------------------------------- */
+.container{
+  height: 100vh;
+}
+
+.line{
+  padding-top: 38px;
+  border-bottom: 2px solid;
+}
+
+
+.light{
+  background-color: var(--primary-color-2);
+  color: var(--primary-color);
+}
+
+.dark{
+  background-color: var(--secundary-color);
+  color: var(--primary-color-2);
+}
+
+
+.hero{
+  height: 95vh;
+}
+
+#themeButton{
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+#themeButton:hover{
+  transform: scale(1.2);
+}
+
+.img{
+  height: 85vh;
+  object-fit: cover;
+}
+
+.boton{
+  margin-bottom: auto;
+}
+
+@media(min-width:768px){
+  .aboutmetext{
+    padding-top: 3rem !important
+  }
+}
+
+@media(min-width:992px) and (max-width:1199px){
+  .aboutmetext{
+    padding-top: 8rem !important
+  }
+}
+
+@media(min-width:1200px){
+  .aboutmetext{
+    padding-top: 17rem !important
+  }
+}
