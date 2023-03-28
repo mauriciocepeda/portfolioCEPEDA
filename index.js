@@ -5,7 +5,7 @@ const body=document.querySelector('body');
 
 themeButton.addEventListener('click',()=>{
     if (themeButton.classList=="col-2 text-center bi bi-brightness-high fs-2 pt-3"){
-        themeButton.classList="col-2 text-center sbi bi-moon fs-2 pt-3";
+        themeButton.classList="col-2 text-center bi bi-moon fs-2 pt-3";
         body.classList="dark";
         body.style.transition="2s";
     }else{
@@ -14,5 +14,8 @@ themeButton.addEventListener('click',()=>{
         body.style.transition="2s";
     }
 })
+
+
+
 
 
