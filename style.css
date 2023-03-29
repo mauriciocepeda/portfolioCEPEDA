@@ -145,3 +145,7 @@ li{
   padding: 15px;
 }
 
+.fotos-container{
+  display: grid;
+  grid-auto-flow: dense;
+}
