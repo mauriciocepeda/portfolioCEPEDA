@@ -5,9 +5,9 @@
     border: 0;
     box-sizing: border-box;
     text-decoration: none;
-    --primary-color:rgb(0, 0, 0);
-    --primary-color-2:rgb(242, 243, 187);
-    --secundary-color:rgb(75, 79, 92);
+    --primary-color:#f1e9cb;
+    --primary-color-2:#feecc1;
+    --secundary-color:#835947;
     --font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,6 +29,11 @@ button{
   color:inherit;
   border:none;
 }
+
+li{
+  text-decoration: none;
+  color: inherit;
+}
 /* -------------------------------------------- */
 .container{
   height: 100vh;
@@ -47,7 +52,7 @@ button{
 
 .dark{
   background-color: var(--secundary-color);
-  color: var(--primary-color-2);
+  color: var(--primary-color);
 }
 
 
