@@ -5,9 +5,9 @@
     border: 0;
     box-sizing: border-box;
     text-decoration: none;
-    --primary-color:#f1e9cb;
+    --primary-color:#fffbef;
     --primary-color-2:#feecc1;
-    --secundary-color:#835947;
+    --secundary-color:#704c3d;
     --font-family: 'Montserrat', sans-serif;
 }
 
@@ -46,7 +46,7 @@ li{
 
 
 .light{
-  background-color: var(--primary-color-2);
+  background-color: var(--primary-color);
   color: var(--secundary-color);
 }
 
